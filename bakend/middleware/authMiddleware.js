@@ -1,7 +1,6 @@
 const jwt = require("jsonwebtoken");
 const User = require("../models/User");
 
-// Middleware para verificar si el usuario está autenticado
 function authenticate(req, res, next) {
   const authHeader = req.headers.authorization;
 
@@ -13,14 +12,13 @@ function authenticate(req, res, next) {
 
   try {
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
-    req.user = decoded; // Guardamos el userId en req.user
+    req.user = decoded;
     next();
   } catch (err) {
     res.status(401).json({ error: "Invalid or expired token." });
   }
 }
 
-// Middleware para permitir solo administradores
 async function authorize(req, res, next) {
   try {
     const user = await User.findById(req.user.userId);
