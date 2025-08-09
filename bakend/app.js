@@ -3,6 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const authRouter = require("./routes/authRouter");
+const categoryRouter = require("./routes/categoryRouter");
 
 const app = express();
 app.use(express.json());
@@ -14,6 +15,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/auth", authRouter);
+app.use("/categories", categoryRouter);
 
 app.listen(PORT, async () => {
   try {
