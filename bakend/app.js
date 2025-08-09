@@ -4,6 +4,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const authRouter = require("./routes/authRouter");
 const categoryRouter = require("./routes/categoryRouter");
+const postRouter = require("./routes/postRouter");
 
 const app = express();
 app.use(express.json());
@@ -16,6 +17,7 @@ app.get("/", (req, res) => {
 
 app.use("/auth", authRouter);
 app.use("/categories", categoryRouter);
+app.use("/posts", postRouter);
 
 app.listen(PORT, async () => {
   try {
