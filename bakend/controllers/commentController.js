@@ -2,7 +2,10 @@ const commentService = require("../services/commentService");
 
 async function create(req, res) {
   try {
-    const comment = await commentService.createComment(req.body);
+    const comment = await commentService.createComment({
+      ...req.body,
+      author: req.user._id,
+    });
     res.status(201).json(comment);
   } catch (err) {
     res.status(400).json({ error: err.message });
@@ -21,13 +24,36 @@ async function getById(req, res) {
 }
 
 async function update(req, res) {
-  const comment = await commentService.updateComment(req.params.id, req.body);
-  res.json(comment);
+  try {
+    const { comment, error } = await commentService.updateComment(
+      req.params.id,
+      req.body,
+      req.user
+    );
+    if (error) {
+      return res.status(error.status).json({ error: error.message });
+    }
+    res.json(comment);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
 }
 
 async function remove(req, res) {
-  await commentService.deleteComment(req.params.id);
-  res.status(204).end();
+  try {
+    const { error } = await commentService.deleteComment(
+      req.params.id,
+      req.user
+    );
+    if (error) {
+      return res.status(error.status).json({ error: error.message });
+    }
+    res.status(204).json({
+      message: "comment delete successfull",
+    });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
 }
 
 module.exports = { create, getAll, getById, update, remove };

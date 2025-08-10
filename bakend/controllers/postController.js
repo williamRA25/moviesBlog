@@ -2,7 +2,10 @@ const postService = require("../services/postService");
 
 async function create(req, res) {
   try {
-    const post = await postService.createPost(req.body);
+    const post = await postService.createPost({
+      ...req.body,
+      author: req.user._id,
+    });
     res.status(201).json(post);
   } catch (err) {
     res.status(400).json({ error: err.message });
@@ -21,13 +24,33 @@ async function getById(req, res) {
 }
 
 async function update(req, res) {
-  const post = await postService.updatePost(req.params.id, req.body);
-  res.json(post);
+  try {
+    const { post, error } = await postService.updatePost(
+      req.params.id,
+      req.body,
+      req.user
+    );
+    if (error) {
+      return res.status(error.status).json({ error: error.message });
+    }
+    res.json(post);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
 }
 
 async function remove(req, res) {
-  await postService.deletePost(req.params.id);
-  res.status(204).end();
+  try {
+    const { error } = await postService.deletePost(req.params.id, req.user);
+    if (error) {
+      return res.status(error.status).json({ error: error.message });
+    }
+    res.status(204).send({
+      message: "post delete successfull",
+    });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
 }
 
 module.exports = { create, getAll, getById, update, remove };
