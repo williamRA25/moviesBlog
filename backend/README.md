@@ -70,6 +70,10 @@ PORT=3001
 MONGODB_URI="mongodb://william:william123@localhost:27017/movies_blog"
 CLIENT_URL=http://localhost:4200
 JWT_SECRET=mysupersecret
+ADMIN_NAME=admin
+ADMIN_LASTNAME=admin
+ADMIN_EMAIL=admin@email.com
+ADMIN_PASSWORD=admin123
 ```
 O copiar el contenido del archivo [.env.example](./.env.example) al archivo `.env`
 
