@@ -1,4 +1,3 @@
-require("dotenv/config.js");
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
@@ -6,11 +5,18 @@ const authRouter = require("./routes/authRouter");
 const categoryRouter = require("./routes/categoryRouter");
 const postRouter = require("./routes/postRouter");
 const commentRouter = require("./routes/commentRouter");
+const User = require("./models/User");
+const { createAdminUser } = require("./services/adminService");
+const envConfig = require("./config/envConfig");
 
+const { mongoUri, admin, port, clientUrl } = envConfig;
 const app = express();
 app.use(express.json());
-
-const PORT = process.env.PORT || 3001;
+app.use(
+  cors({
+    origin: clientUrl,
+  })
+);
 
 app.get("/", (req, res) => {
   res.send("OK");
@@ -21,11 +27,12 @@ app.use("/categories", categoryRouter);
 app.use("/posts", postRouter);
 app.use("/comments", commentRouter);
 
-app.listen(PORT, async () => {
+app.listen(port, async () => {
   try {
-    await mongoose.connect(process.env.MONGODB_URI);
-    console.log("mongoose connection succes");
-    console.log("listening at port", PORT);
+    await mongoose.connect(mongoUri);
+    await createAdminUser(admin);
+    console.log("mongoose connection success");
+    console.log("listening at port", port);
   } catch (error) {
     console.log(error);
   }

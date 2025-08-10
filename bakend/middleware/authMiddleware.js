@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 const User = require("../models/User");
 
-function authenticate(req, res, next) {
+async function authenticate(req, res, next) {
   const authHeader = req.headers.authorization;
 
   if (!authHeader || !authHeader.startsWith("Bearer ")) {
@@ -12,7 +12,11 @@ function authenticate(req, res, next) {
 
   try {
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
-    req.user = decoded;
+    const foundUser = await User.findById(decoded.userId).lean();
+    if (!foundUser) {
+      return res.status(404).json({ error: "Invalid user." });
+    }
+    req.user = foundUser;
     next();
   } catch (err) {
     res.status(401).json({ error: "Invalid or expired token." });
@@ -21,10 +25,10 @@ function authenticate(req, res, next) {
 
 async function authorize(req, res, next) {
   try {
-    const user = await User.findById(req.user.userId);
+    const user = await User.findById(req.user._id).lean();
 
     if (!user) {
-      return res.status(404).json({ error: "User not found." });
+      return res.status(404).json({ error: "Invalid user." });
     }
 
     if (user.role !== "admin") {
