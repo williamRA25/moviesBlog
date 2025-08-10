@@ -3,3 +3,8 @@
 
  ## Documentacion Backend 
  La documentacion del backend se encuentra disponible en el siguinete enlace: [Documentacion Backend ](./backend/README.md)
+
+ ## Colaboradores 
+ 
+- WILLIAM RODRIDUEZ AVILA 
+- RONAL LUIS AVILA NORIEGA  
