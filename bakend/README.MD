@@ -38,6 +38,8 @@ Para poder iniciar el proyecto es nesesario tener instalado lo siguiente en el P
 - **MongoDB** (local o en la nube, por ejemplo, [MongoDB Atlas](https://www.mongodb.com/cloud/atlas))  
   [Descargar MongoDB](https://www.mongodb.com/try/download/community)  
 
+- Crear una base de datos en mongodb que se llame `movies_blog` 
+
 - **Git** (para clonar el repositorio)  
   [Descargar Git](https://git-scm.com/downloads)  
 
