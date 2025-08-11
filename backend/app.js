@@ -8,9 +8,11 @@ const commentRouter = require("./routes/commentRouter");
 const User = require("./models/User");
 const { createAdminUser } = require("./services/adminService");
 const envConfig = require("./config/envConfig");
+const morgan = require("morgan");
 
 const { mongoUri, admin, port, clientUrl } = envConfig;
 const app = express();
+app.use(morgan("dev"));
 app.use(express.json());
 app.use(
   cors({
