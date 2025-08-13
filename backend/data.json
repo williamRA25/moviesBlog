@@ -1,0 +1,730 @@
+[
+{
+  "title": "Terminator",
+  "content": "Terminator (1984), dirigida por James Cameron, es la primera película de la icónica franquicia de ciencia ficción y acción. La historia sigue a un cyborg asesino enviado desde el futuro para eliminar a Sarah Connor, cuya vida está destinada a influir en el destino de la humanidad. Arnold Schwarzenegger ofrece una de sus interpretaciones más memorables, acompañado de Linda Hamilton y Michael Biehn. Con su mezcla de suspenso, acción y una premisa innovadora, 'Terminator' se convirtió en un clásico del género y abrió la puerta a múltiples secuelas.",
+  "image": "https://upload.wikimedia.org/wikipedia/en/7/70/Terminator1984movieposter.jpg",
+  "author": {
+    "name": "Jonh",
+    "lastname": "Doe",
+    "email": "admin@email.com"
+  },
+  "category": {
+    "name": "Acción"
+  }
+},
+  {
+    "title": "El Padrino",
+    "content": "El Padrino (1972) es una obra maestra del cine de crimen y drama dirigida por Francis Ford Coppola, basada en la novela homónima de Mario Puzo. La historia sigue a la poderosa familia Corleone en el mundo de la mafia italoamericana, explorando temas de poder, lealtad y traición. Con actuaciones icónicas de Marlon Brando, Al Pacino, James Caan y Robert Duvall, la película es reconocida como una de las más influyentes de la historia del cine, estableciendo un nuevo estándar narrativo y visual. Su retrato de la mafia y su impecable dirección la convirtieron en un clásico atemporal.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Crimen"
+    }
+  },
+  {
+    "title": "El Padrino: Parte II",
+    "content": "El Padrino: Parte II (1974), dirigida nuevamente por Francis Ford Coppola, es considerada por muchos como la mejor secuela jamás hecha. La cinta alterna dos narrativas: el ascenso de Michael Corleone como líder de la familia y la juventud de Vito Corleone interpretada magistralmente por Robert De Niro. Este paralelismo profundiza en los orígenes del poder de la familia y en el coste personal de mantenerlo. Con un guion impecable, actuaciones memorables y una dirección magistral, esta película se ha consolidado como una obra de arte cinematográfica.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/03/Godfather_part_ii.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Crimen"
+    }
+  },
+  {
+    "title": "El Caballero de la Noche",
+    "content": "El Caballero de la Noche (2008), dirigida por Christopher Nolan, redefinió el género de superhéroes con su tono oscuro, realista y complejo. La trama sigue a Batman enfrentándose a un enemigo impredecible y caótico: el Joker, interpretado magistralmente por Heath Ledger, cuya actuación le valió un Óscar póstumo. La película explora la delgada línea entre el heroísmo y el sacrificio, con secuencias de acción intensas y un guion profundo. Es ampliamente reconocida como una de las mejores películas de superhéroes de todos los tiempos.",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjIzMGU0MDQtNDcyOS00MmEyLTg3MWMtODE4YWI1ZGZlMTllXkEyXkFqcGc@._V1_.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Acción"
+    }
+  },
+  {
+    "title": "Pulp Fiction",
+    "content": "Pulp Fiction (1994), dirigida por Quentin Tarantino, es una de las películas más influyentes del cine moderno. Con una narrativa no lineal, diálogos memorables y una mezcla única de violencia, humor y referencias culturales, la película sigue varias historias entrelazadas en el mundo del crimen de Los Ángeles. Las actuaciones de John Travolta, Samuel L. Jackson, Uma Thurman y Bruce Willis son icónicas, y su estilo visual y sonoro ha marcado a generaciones de cineastas. Ganó la Palma de Oro en Cannes y consolidó a Tarantino como uno de los directores más originales de su tiempo.",
+    "image": "https://m.media-amazon.com/images/M/MV5BNDZiZDU2MjMtM2Q3ZS00NDY0LWExOWEtZjYzYzE3ZTRkODFlXkEyXkFqcGc@._V1_.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Crimen"
+    }
+  },
+  {
+    "title": "El Señor de los Anillos: La Comunidad del Anillo",
+    "content": "El Señor de los Anillos: La Comunidad del Anillo (2001), dirigida por Peter Jackson, es la primera entrega de la trilogía basada en la obra de J.R.R. Tolkien. La historia sigue a Frodo Bolsón en su misión de destruir el Anillo Único para evitar que caiga en manos de Sauron. Con paisajes impresionantes, un elenco memorable y una producción monumental, esta película marcó un hito en el cine de fantasía y aventuras, estableciendo un estándar visual y narrativo para el género.",
+    "image": "https://es.web.img3.acsta.net/medias/nmedia/18/89/67/45/20061512.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Fantasía"
+    }
+  },
+  {
+    "title": "El Señor de los Anillos: Las Dos Torres",
+    "content": "El Señor de los Anillos: Las Dos Torres (2002) continúa la épica aventura de la Comunidad, ahora separada en diferentes frentes de batalla. Frodo y Sam se adentran en tierras peligrosas guiados por Gollum, mientras Aragorn, Legolas y Gimli ayudan a defender Rohan del ataque de Saruman. La película destaca por sus impresionantes batallas, efectos visuales innovadores y un desarrollo de personajes profundo. Peter Jackson logra mantener la tensión y el espíritu épico de la saga.",
+    "image": "https://m.media-amazon.com/images/M/MV5BOGFkYWJhOGQtODVlOC00OGU2LTgwM2ItZjI0M2Q3NzU5Nzk2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Fantasía"
+    }
+  },
+  {
+    "title": "El Señor de los Anillos: El Retorno del Rey",
+    "content": "El Señor de los Anillos: El Retorno del Rey (2003) es la conclusión épica de la trilogía dirigida por Peter Jackson. La película culmina la guerra por la Tierra Media con la batalla final en Minas Tirith y el viaje de Frodo hacia el Monte del Destino. Ganadora de 11 premios Óscar, incluyendo Mejor Película, es recordada por su majestuosidad visual, su emotividad y su cierre perfecto para una de las sagas más queridas del cine.",
+    "image": "https://es.web.img2.acsta.net/medias/nmedia/18/89/68/19/20061877.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Fantasía"
+    }
+  },
+  {
+    "title": "Titanic",
+    "content": "Titanic (1997), dirigida por James Cameron, es un drama romántico épico que narra la historia de amor entre Jack y Rose a bordo del transatlántico RMS Titanic durante su fatídico viaje inaugural. Protagonizada por Leonardo DiCaprio y Kate Winslet, la película combina una recreación histórica meticulosa con una historia emotiva. Ganadora de 11 premios Óscar, es famosa por sus impresionantes efectos especiales, su inolvidable banda sonora y su impacto cultural duradero.",
+    "image": "https://es.web.img3.acsta.net/medias/nmedia/18/86/91/41/19870073.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Romance"
+    }
+  },
+  {
+    "title": "Avatar",
+    "content": "Avatar (2009), dirigida por James Cameron, es una innovadora película de ciencia ficción y aventura que transporta a los espectadores al mundo alienígena de Pandora. La historia sigue a Jake Sully, un exmarine que participa en un programa para explorar Pandora a través de un avatar Na'vi. Con revolucionarios efectos visuales en 3D, un mensaje ecológico y una narrativa épica, la película se convirtió en la más taquillera de la historia en su momento, marcando un antes y un después en el cine moderno.",
+    "image": "https://m.media-amazon.com/images/I/91N1lG+LBIS._UF1000,1000_QL80_.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Ciencia ficción"
+    }
+  },
+  {
+    "title": "Star Wars: Una Nueva Esperanza",
+    "content": "Star Wars: Una Nueva Esperanza (1977), escrita y dirigida por George Lucas, revolucionó el cine de ciencia ficción y aventuras. La historia sigue a Luke Skywalker en su misión de unirse a la Rebelión para destruir la Estrella de la Muerte y derrotar al Imperio Galáctico. Con personajes icónicos como Han Solo, Leia Organa y Darth Vader, efectos visuales pioneros y una música inolvidable de John Williams, la película se convirtió en un fenómeno cultural que dio inicio a una de las franquicias más importantes del cine.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/87/StarWarsMoviePoster1977.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Ciencia ficción"
+    }
+  },
+  {
+    "title": "Star Wars: El Imperio Contraataca",
+    "content": "Star Wars: El Imperio Contraataca (1980), dirigida por Irvin Kershner, es considerada por muchos como la mejor entrega de la saga. La historia profundiza en los personajes, con Luke Skywalker entrenando con Yoda mientras Han Solo y Leia Organa huyen del Imperio. Con un tono más oscuro, revelaciones impactantes y una narrativa más madura, la película consolidó la franquicia como un fenómeno cultural y dejó momentos icónicos como la famosa frase: 'Yo soy tu padre'.",
+    "image": "https://m.media-amazon.com/images/S/pv-target-images/48e3d7d9b16c36ca7877684af966720682f9a90f77ad0166b5e92809b53e8a65.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Ciencia ficción"
+    }
+  },
+  {
+    "title": "Star Wars: El Retorno del Jedi",
+    "content": "Star Wars: El Retorno del Jedi (1983), dirigida por Richard Marquand, cierra la trilogía original con la confrontación final entre la Alianza Rebelde y el Imperio Galáctico. Luke Skywalker enfrenta al Emperador y a Darth Vader en una batalla decisiva mientras sus amigos intentan destruir la segunda Estrella de la Muerte. Con momentos emotivos, acción épica y un final satisfactorio, la película dejó un legado imborrable en la cultura pop.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/b2/ReturnOfTheJediPoster1983.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Ciencia ficción"
+    }
+  },
+  {
+    "title": "Jurassic Park",
+    "content": "Jurassic Park (1993), dirigida por Steven Spielberg, es una aventura de ciencia ficción que asombró al mundo con sus efectos visuales y animatrónicos revolucionarios. Basada en la novela de Michael Crichton, narra la historia de un parque temático con dinosaurios clonados que escapan de control. Con un equilibrio perfecto entre suspense, acción y asombro, la película marcó un hito en la industria y dio inicio a una exitosa franquicia.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/e7/Jurassic_Park_poster.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Ciencia ficción"
+    }
+  },
+  {
+    "title": "Jurassic World",
+    "content": "Jurassic World (2015), dirigida por Colin Trevorrow, revitalizó la franquicia con una nueva visión del parque de dinosaurios, ahora completamente funcional y abierto al público. Sin embargo, la creación de un dinosaurio híbrido, el Indominus rex, provoca el caos. Con impresionantes efectos visuales, acción trepidante y guiños a la película original, esta entrega conquistó a nuevas generaciones de espectadores.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/6e/Jurassic_World_poster.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Ciencia ficción"
+    }
+  },
+  {
+    "title": "Gladiador",
+    "content": "Gladiador (2000), dirigida por Ridley Scott, es un épico drama histórico que narra la historia de Máximo Décimo Meridio, un general romano traicionado que se convierte en gladiador para vengar la muerte de su familia y del emperador Marco Aurelio. Protagonizada por Russell Crowe, cuya interpretación le valió el Óscar, la película es conocida por sus espectaculares batallas, su emotiva narrativa y su música compuesta por Hans Zimmer.",
+    "image": "https://m.media-amazon.com/images/M/MV5BYWJjYWJhZmMtOGM1My00YWQzLWFlNWEtZTQ3ZjM5NzAxZDNkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Acción"
+    }
+  },
+  {
+    "title": "Braveheart",
+    "content": "Braveheart (1995), dirigida y protagonizada por Mel Gibson, es un drama histórico épico que cuenta la vida de William Wallace, un líder escocés que luchó por la independencia de Escocia en el siglo XIII. Con espectaculares batallas, una historia de amor trágica y un mensaje de libertad, la película ganó 5 premios Óscar, incluyendo Mejor Película y Mejor Director.",
+    "image": "https://m.media-amazon.com/images/I/913WMNyJBlL._UF894,1000_QL80_.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Drama histórico"
+    }
+  },
+  {
+    "title": "Matrix",
+    "content": "Matrix (1999), dirigida por las hermanas Wachowski, es un hito en la ciencia ficción que combina filosofía, artes marciales y efectos visuales revolucionarios. La historia sigue a Neo, un programador que descubre que el mundo que conoce es una simulación controlada por máquinas. Con secuencias de acción innovadoras y un guion que invita a la reflexión, Matrix cambió el cine de acción para siempre.",
+    "image": "https://m.media-amazon.com/images/S/pv-target-images/81cd0f8c0dc014baa06e0463364d7ceff7c10faec57d9ba1ee304062d6b30460.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Ciencia ficción"
+    }
+  },
+  {
+    "title": "Matrix Reloaded",
+    "content": "Matrix Reloaded (2003) continúa la historia de Neo y sus aliados mientras luchan contra el dominio de las máquinas. Con escenas de acción más ambiciosas, como la famosa persecución en autopista, la película expande el universo y explora temas más complejos sobre el destino y la elección. Aunque recibió críticas mixtas, su impacto visual y narrativo es innegable.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/ba/Poster_-_The_Matrix_Reloaded.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Ciencia ficción"
+    }
+  },
+  {
+    "title": "Inception (El Origen)",
+    "content": "Inception (2010), dirigida por Christopher Nolan, es un thriller de ciencia ficción que desafía la mente con su compleja narrativa sobre sueños dentro de sueños. Dom Cobb, un ladrón especializado en el espionaje subconsciente, debe realizar la 'inserción' de una idea en la mente de un empresario. Con efectos visuales innovadores, un reparto estelar y una trama intrigante, la película se convirtió en un referente del género.",
+    "image": "https://images.plex.tv/photo?size=large-1280&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fb%2Fgracenote%2Fbcb81d59b292170f9fbae7c75cac2572.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Ciencia ficción"
+    }
+  },
+  {
+    "title": "Interestelar",
+    "content": "Interestelar (2014), dirigida por Christopher Nolan, es una épica de ciencia ficción que combina exploración espacial con drama humano. La historia sigue a un grupo de astronautas que viajan a través de un agujero de gusano en busca de un nuevo hogar para la humanidad. Con impresionantes efectos visuales, un guion emotivo y una banda sonora de Hans Zimmer, la película es una experiencia cinematográfica inolvidable que reflexiona sobre el amor, el tiempo y la supervivencia.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Ciencia ficción"
+    }
+  },
+  {
+    "title": "Harry Potter y la Piedra Filosofal",
+    "content": "Harry Potter y la Piedra Filosofal (2001), dirigida por Chris Columbus, es la primera entrega de la saga basada en los libros de J.K. Rowling. Narra el descubrimiento de Harry Potter sobre su identidad como mago y su ingreso en el Colegio Hogwarts de Magia y Hechicería. La película combina magia, aventura y amistad, estableciendo las bases de un universo cinematográfico amado por millones.",
+    "image": "https://image.tmdb.org/t/p/original/7AVgEqEurvNEezd5mDePvucIojL.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Fantasía"
+    }
+  },
+  {
+    "title": "Harry Potter y la Cámara Secreta",
+    "content": "Harry Potter y la Cámara Secreta (2002) sigue al joven mago en su segundo año en Hogwarts, donde misteriosos ataques petrifican a estudiantes. La película profundiza en la historia de la escuela y presenta a personajes clave como Dobby. Con más acción y un tono ligeramente más oscuro, es una secuela sólida que expandió el mundo mágico.",
+    "image": "https://es.web.img2.acsta.net/c_310_420/pictures/14/04/30/11/50/167156.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Fantasía"
+    }
+  },
+  {
+    "title": "Harry Potter y el Prisionero de Azkaban",
+    "content": "Harry Potter y el Prisionero de Azkaban (2004), dirigida por Alfonso Cuarón, introduce un tono más maduro y visualmente distintivo a la saga. Harry descubre la verdad sobre Sirius Black, un prisionero fugado de Azkaban que aparentemente lo persigue. Con giros inesperados y un estilo cinematográfico más oscuro, es una de las entregas más aclamadas por los fans.",
+    "image": "https://cloudfront-us-east-1.images.arcpublishing.com/abccolor/Q5OLN7ZSOJHPJP3MR4UZTOLIWI.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Fantasía"
+    }
+  },
+  {
+    "title": "Harry Potter y el Cáliz de Fuego",
+    "content": "Harry Potter y el Cáliz de Fuego (2005) lleva a Harry a competir en el Torneo de los Tres Magos, enfrentándose a peligros mortales y a la amenaza creciente de Lord Voldemort. Con un tono más oscuro y una mayor complejidad en la trama, la película marca un punto de inflexión en la historia de la saga.",
+    "image": "https://m.media-amazon.com/images/S/pv-target-images/8747ca39c225c5643d40e1be5b78e8844ca779f126273507fec3f0c8b084885b.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Fantasía"
+    }
+  },
+  {
+    "title": "El Rey León",
+    "content": "El Rey León (1994), de Walt Disney, es una de las películas animadas más icónicas de todos los tiempos. Ambientada en las llanuras africanas, narra la historia de Simba, un joven león que debe reclamar su lugar como rey tras la muerte de su padre. Con canciones memorables, una animación deslumbrante y un mensaje sobre el ciclo de la vida, la cinta ha cautivado a generaciones enteras.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/3d/The_Lion_King_poster.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Animación"
+    }
+  },
+  {
+    "title": "Buscando a Nemo",
+    "content": "Buscando a Nemo (2003), producida por Pixar y dirigida por Andrew Stanton, es una conmovedora aventura submarina que sigue a Marlin, un pez payaso, en la búsqueda de su hijo Nemo, capturado por buzos. La película combina humor, emoción y un impresionante trabajo visual, consolidándose como un clásico moderno de la animación.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/29/Finding_Nemo.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Animación"
+    }
+  },
+  {
+    "title": "Toy Story",
+    "content": "Toy Story (1995), dirigida por John Lasseter, fue la primera película animada completamente por computadora y marcó el inicio de la exitosa colaboración entre Pixar y Disney. La historia sigue a Woody, un vaquero de juguete, y Buzz Lightyear, un astronauta, en una divertida y emotiva aventura sobre amistad y lealtad. Su innovación técnica y narrativa la convirtieron en un referente del cine animado.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Animación"
+    }
+  },
+  {
+    "title": "Los Increíbles",
+    "content": "Los Increíbles (2004), dirigida por Brad Bird, combina el cine de superhéroes con la comedia familiar. La historia sigue a la familia Parr, ex-superhéroes que deben salir del retiro para enfrentarse a una nueva amenaza. Con acción trepidante, humor y un mensaje sobre el valor del trabajo en equipo, la película se convirtió en un clásico instantáneo.",
+    "image": "https://www.lavanguardia.com/peliculas-series/images/all/movie/posters/2004/10/movie-9806/w1280/fM8WPqKd7gnoe5lOxYeuHkK6zrB.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Animación"
+    }
+  },
+  {
+    "title": "Coco",
+    "content": "Coco (2017), producida por Pixar, celebra la cultura mexicana a través de la historia de Miguel, un niño que sueña con ser músico y termina viajando al Mundo de los Muertos. La película destaca por su espectacular animación, emotiva narrativa y su homenaje a las tradiciones del Día de Muertos. Ganadora del Óscar a Mejor Película Animada, es una obra que combina ternura, color y música inolvidable.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/98/Coco_%282017_film%29_poster.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Animación"
+    }
+  },
+  {
+    "title": "Shrek",
+    "content": "Shrek (2001), producida por DreamWorks, es una irreverente comedia animada que parodia los cuentos de hadas clásicos. La historia sigue a un ogro solitario que se embarca en una misión para rescatar a una princesa, acompañado por el carismático Burro. Con su humor ingenioso y personajes entrañables, la película redefinió la animación en el nuevo milenio.",
+    "image": "https://es.web.img3.acsta.net/pictures/14/03/06/10/13/369709.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Animación"
+    }
+  },
+ {
+  "title": "2012",
+  "content": "2012 (2009), dirigida por Roland Emmerich, es una película de desastre épica que retrata un cataclismo global basado en la interpretación apocalíptica del calendario maya. La trama sigue a Jackson Curtis, un escritor y padre de familia, mientras lucha por salvar a sus seres queridos en medio de terremotos, erupciones volcánicas y tsunamis colosales. Con efectos especiales espectaculares y escenas de destrucción a gran escala, 2012 ofrece una experiencia intensa y visualmente impactante que mantiene la tensión de principio a fin.",
+  "image": "https://upload.wikimedia.org/wikipedia/en/d/dd/2012_Poster.jpg",
+  "author": {
+    "name": "Jonh",
+    "lastname": "Doe",
+    "email": "admin@email.com"
+  },
+  "category": {
+    "name": "Ciencia Ficción"
+  }
+},
+  {
+  "title": "El Lórax: En busca de la trúfula perdida",
+  "content": "El Lórax: En busca de la trúfula perdida (2012), dirigida por Chris Renaud y basada en el libro del Dr. Seuss, es una colorida y emotiva película animada que transmite un mensaje ecológico sobre la importancia de cuidar la naturaleza. La historia sigue a Ted, un joven que busca impresionar a la chica que le gusta encontrando un árbol real en un mundo donde toda la vegetación es artificial. En el camino conoce al Lórax, el guardián del bosque, y descubre el valor de proteger el medio ambiente frente a la explotación desmedida.",
+  "image": "https://m.media-amazon.com/images/M/MV5BNWUwMTg1MDctZGEwNy00NmE2LWJmYWQtY2M5NWY0MmRlNmYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "author": {
+    "name": "Jonh",
+    "lastname": "Doe",
+    "email": "admin@email.com"
+  },
+  "category": {
+    "name": "Animación"
+  }
+},
+{
+  "title": "Rambo: First Blood",
+  "content": "Rambo: First Blood (1982), dirigida por Ted Kotcheff y protagonizada por Sylvester Stallone, es un thriller de acción que sigue a John Rambo, un ex boina verde que se ve envuelto en un conflicto con la policía de un pequeño pueblo. Lo que comienza como un malentendido se convierte en una intensa persecución por las montañas, donde Rambo demuestra sus habilidades de supervivencia y combate. La película no solo ofrece acción trepidante, sino también una crítica a la forma en que los veteranos de guerra fueron tratados tras el conflicto de Vietnam.",
+  "image": "https://i.ebayimg.com/images/g/PtoAAOSwRvJhuhEq/s-l640.jpg",
+  "author": {
+    "name": "Jonh",
+    "lastname": "Doe",
+    "email": "admin@email.com"
+  },
+  "category": {
+    "name": "Acción"
+  }
+},
+  {
+    "title": "Avengers: Endgame",
+    "content": "Avengers: Endgame (2019), dirigida por Anthony y Joe Russo, es el épico cierre de más de una década de historias interconectadas del Universo Cinematográfico de Marvel. Con un reparto coral de superhéroes, la película mezcla acción, emoción y nostalgia mientras los Vengadores intentan revertir el chasquido de Thanos. Su estreno rompió récords y se convirtió en un fenómeno cultural global.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Acción"
+    }
+  },
+  {
+    "title": "Doctor Strange",
+    "content": "Doctor Strange (2016), dirigida por Scott Derrickson, introduce al maestro de las artes místicas en el Universo Marvel. La película sigue a Stephen Strange, un neurocirujano arrogante que, tras un accidente, busca la sanación en las enseñanzas ocultas del misticismo. Con impresionantes efectos visuales que doblan la realidad, ofrece una experiencia única en el género de superhéroes.",
+    "image": "https://www.popmovee.com/uploads/1/9/6/2/19626163/doctor-strange-movie-2016-poster4_1_orig.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Superhéroes"
+    }
+  },
+  {
+    "title": "Black Panther",
+    "content": "Black Panther (2018), dirigida por Ryan Coogler, es una película que combina acción, política y cultura africana en el marco del Universo Marvel. Ambientada en la nación ficticia de Wakanda, sigue a T'Challa en su lucha por mantener el trono frente a enemigos internos y externos. Su impacto cultural fue tan grande que se convirtió en un símbolo de representación y orgullo.",
+    "image": "https://m.media-amazon.com/images/M/MV5BOWJjZTU4NDctZDNlNy00ZDhkLTlmZGItMjFlNmI5MWI4OGEzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Superhéroes"
+    }
+  },
+  {
+    "title": "Deadpool",
+    "content": "Deadpool (2016), dirigida por Tim Miller y protagonizada por Ryan Reynolds, rompió moldes en el género de superhéroes con su humor irreverente y violencia explícita. La historia sigue a Wade Wilson, un mercenario con habilidades regenerativas que busca venganza contra quienes lo transformaron. Con una narrativa autoconsciente y carismática, redefinió la forma de contar historias de cómics en el cine.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/23/Deadpool_%282016_poster%29.png",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Superhéroes"
+    }
+  },
+  {
+    "title": "Logan",
+    "content": "Logan (2017), dirigida por James Mangold, presenta una visión más oscura y realista del universo X-Men. Ambientada en un futuro cercano, sigue a un envejecido Wolverine que cuida de un debilitado Profesor X mientras protege a una joven mutante con habilidades similares a las suyas. Con un tono más cercano al western y al drama, fue aclamada como una de las mejores películas de superhéroes jamás hechas.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/37/Logan_2017_poster.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Superhéroes"
+    }
+  },
+  {
+    "title": "El Hombre Araña 2",
+    "content": "Spider-Man 2 (2004), dirigida por Sam Raimi, es considerada una de las mejores adaptaciones de cómic. Protagonizada por Tobey Maguire como Peter Parker, muestra su lucha por equilibrar su vida personal con las responsabilidades de ser Spider-Man, enfrentándose al Doctor Octopus. Con acción espectacular y una historia profundamente humana, sigue siendo un referente del género.",
+    "image": "https://i.pinimg.com/736x/72/61/67/72616709f3a5d440f17c88684be8040a.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Superhéroes"
+    }
+  },
+  {
+    "title": "Wonder Woman",
+    "content": "Wonder Woman (2017), dirigida por Patty Jenkins y protagonizada por Gal Gadot, narra el origen de Diana Prince, una guerrera amazona que abandona su hogar para detener la Primera Guerra Mundial. Con un equilibrio entre acción, humor y momentos conmovedores, la película fue un éxito crítico y comercial, destacando como una de las mejores producciones del universo DC.",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjEzYmZkNjktODBmYi00NzNkLWIzMjItMjhkMWZiZTZlN2MwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Superhéroes"
+    }
+  },
+  {
+    "title": "Aquaman",
+    "content": "Aquaman (2018), dirigida por James Wan y protagonizada por Jason Momoa, combina fantasía submarina con acción superheroica. La historia sigue a Arthur Curry mientras descubre sus orígenes y lucha por reclamar el trono de Atlantis para evitar una guerra. Con una estética visual impresionante y batallas épicas, revitalizó la imagen del personaje.",
+    "image": "https://www.ecured.cu/images/5/5d/Aquaman2018.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Superhéroes"
+    }
+  },
+  {
+    "title": "La Liga de la Justicia",
+    "content": "Justice League (2017), dirigida por Zack Snyder (y parcialmente por Joss Whedon), reúne a los héroes más importantes del universo DC para enfrentar una amenaza cósmica. A pesar de su producción problemática, el filme ofrece momentos espectaculares y marcó un paso importante en la construcción de un universo compartido. Su versión extendida, Zack Snyder's Justice League, fue recibida con gran entusiasmo por los fans.",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/c58f6659048965.5a136111ee01d.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Superhéroes"
+    }
+  },
+  {
+    "title": "El laberinto del fauno",
+    "content": "El laberinto del fauno (2006), dirigida por Guillermo del Toro, es una fusión magistral entre fantasía oscura y drama histórico. Ambientada en la posguerra española, sigue a Ofelia, una niña que descubre un mundo mágico mientras su padrastro, un cruel capitán franquista, siembra el terror. La película es conocida por su estética única, su simbolismo y sus criaturas memorables.",
+    "image": "https://pics.filmaffinity.com/El_laberinto_del_fauno-778235469-large.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Fantasía"
+    }
+  },
+  {
+    "title": "Inglourious Basterds",
+    "content": "Inglourious Basterds (2009), escrita y dirigida por Quentin Tarantino, reimagina la Segunda Guerra Mundial con su estilo irreverente y diálogos afilados. La trama sigue a un grupo de soldados judíos estadounidenses y a una joven francesa que conspiran para acabar con líderes nazis. Con interpretaciones memorables, especialmente la de Christoph Waltz, es una mezcla perfecta de tensión, humor y violencia estilizada.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/Inglourious_Basterds_poster.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Bélica"
+    }
+  },
+  {
+    "title": "El gran Lebowski",
+    "content": "El gran Lebowski (1998), dirigida por los hermanos Coen, es una comedia de culto que sigue a Jeffrey 'The Dude' Lebowski, un hombre despreocupado cuya vida se ve envuelta en un enredo criminal por una confusión de identidad. Con diálogos absurdos, personajes excéntricos y un humor muy particular, la película se ha convertido en un fenómeno cultural con su propio festival anual.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/35/Biglebowskiposter.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Comedia"
+    }
+  },
+  {
+    "title": "El club de la pelea",
+    "content": "El club de la pelea (1999), dirigida por David Fincher y basada en la novela de Chuck Palahniuk, es un retrato oscuro de la alienación moderna. La historia sigue a un hombre sin nombre que encuentra en Tyler Durden una salida a su vacío existencial a través de un club clandestino de peleas. Con un giro final impactante, se convirtió en una de las películas más comentadas y analizadas de los últimos 25 años.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Drama"
+    }
+  },
+  {
+    "title": "Whiplash",
+    "content": "Whiplash (2014), dirigida por Damien Chazelle, es un intenso drama sobre la obsesión y el perfeccionismo en el mundo de la música. Sigue la relación entre Andrew, un joven baterista de jazz, y Fletcher, su exigente y abusivo instructor. Con actuaciones explosivas de Miles Teller y J.K. Simmons, la película explora los límites entre la motivación y la destrucción personal.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Drama"
+    }
+  },
+  {
+    "title": "El pianista",
+    "content": "El pianista (2002), dirigida por Roman Polanski y protagonizada por Adrien Brody, cuenta la historia real de Władysław Szpilman, un pianista polaco judío que lucha por sobrevivir durante la ocupación nazi en Varsovia. Con una interpretación profundamente emotiva y una dirección sensible, la película ganó tres premios Óscar y es considerada una obra maestra del cine bélico y biográfico.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a6/The_Pianist_movie.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Bélica"
+    }
+  },
+  {
+    "title": "La forma del agua",
+    "content": "La forma del agua (2017), dirigida por Guillermo del Toro, es un cuento de hadas moderno ambientado en la Guerra Fría. La historia sigue a Elisa, una mujer muda que trabaja en un laboratorio gubernamental y se enamora de una criatura anfibia cautiva. Con una mezcla única de romance, fantasía y política, ganó el Óscar a Mejor Película y Mejor Dirección.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/37/The_Shape_of_Water_%28film%29.png",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Fantasía"
+    }
+  },
+  {
+    "title": "Her",
+    "content": "Her (2013), escrita y dirigida por Spike Jonze, es una historia de amor futurista que explora la relación entre un hombre solitario y un sistema operativo con inteligencia artificial. Con Joaquin Phoenix en una actuación magistral y la voz de Scarlett Johansson, la película reflexiona sobre la soledad, la conexión humana y el papel de la tecnología en nuestras vidas.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/44/Her2013Poster.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Ciencia ficción"
+    }
+  },
+{
+  "title": "Ghost in the Shell",
+  "content": "Ghost in the Shell (1995), dirigida por Mamoru Oshii y basada en el manga de Masamune Shirow, es un influyente filme de animación japonesa que combina acción, filosofía y ciencia ficción. Ambientada en un futuro cibernético, sigue a la Mayor Motoko Kusanagi, una oficial de la Sección 9 especializada en crímenes tecnológicos, mientras investiga a un misterioso hacker conocido como el 'Puppet Master'. La película es conocida por su profunda exploración de la identidad, la conciencia y la relación entre humanos y máquinas, así como por su revolucionaria animación.",
+  "image": "https://m.media-amazon.com/images/I/811nSVoPzhL._UF1000,1000_QL80_.jpg",
+  "author": {
+    "name": "Jonh",
+    "lastname": "Doe",
+    "email": "admin@email.com"
+  },
+  "category": {
+    "name": "Animación"
+  }
+},
+  {
+    "title": "La lista de Schindler",
+    "content": "La lista de Schindler (1993), dirigida por Steven Spielberg, es un poderoso drama histórico basado en hechos reales. Narra la historia de Oskar Schindler, un empresario alemán que salvó la vida de más de mil judíos durante el Holocausto empleándolos en su fábrica. Filmada en blanco y negro, la película es una obra maestra visual y emocional que ganó siete premios Óscar, incluido el de Mejor Película.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Drama"
+    }
+  },
+  {
+    "title": "Cisne negro",
+    "content": "Cisne negro (2010), dirigida por Darren Aronofsky y protagonizada por Natalie Portman, es un intenso thriller psicológico ambientado en el mundo del ballet. La historia sigue a Nina, una bailarina que se obsesiona con alcanzar la perfección para interpretar los papeles del cisne blanco y el cisne negro en 'El lago de los cisnes'. Portman ganó el Óscar a Mejor Actriz por su interpretación.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/68/Black_Swan_poster.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Thriller"
+    }
+  },
+  {
+    "title": "El sexto sentido",
+    "content": "El sexto sentido (1999), dirigida por M. Night Shyamalan, es un thriller sobrenatural que se convirtió en un fenómeno cultural gracias a su atmósfera inquietante y su giro final inesperado. Bruce Willis interpreta a un psicólogo infantil que intenta ayudar a un niño que afirma ver fantasmas. Su frase 'En ocasiones veo muertos' es una de las más recordadas del cine.",
+    "image": "https://pics.filmaffinity.com/the_sixth_sense-516003703-large.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Suspenso"
+    }
+  },
+  {
+    "title": "Los otros",
+    "content": "Los otros (2001), dirigida por Alejandro Amenábar y protagonizada por Nicole Kidman, es un thriller de terror psicológico ambientado en una mansión aislada después de la Segunda Guerra Mundial. La historia sigue a una madre y sus dos hijos, quienes creen que su casa está habitada por espíritus. Con un final sorprendente y atmósfera inquietante, es considerada una de las mejores películas de terror del siglo XXI.",
+    "image": "https://pics.filmaffinity.com/Los_otros-613696263-large.jpg",
+    "author": {
+      "name": "Jonh",
+      "lastname": "Doe",
+      "email": "admin@email.com"
+    },
+    "category": {
+      "name": "Terror"
+    }
+  }
+]

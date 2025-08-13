@@ -1,0 +1,12 @@
+[
+  { "name": "John", "lastname": "Doe", "email": "john.doe@email.com", "password": "123456" },
+  { "name": "Jane", "lastname": "Smith", "email": "jane.smith@email.com", "password": "123456" },
+  { "name": "Michael", "lastname": "Brown", "email": "michael.brown@email.com", "password": "123456" },
+  { "name": "Emily", "lastname": "Johnson", "email": "emily.johnson@email.com", "password": "123456" },
+  { "name": "David", "lastname": "Wilson", "email": "david.wilson@email.com", "password": "123456" },
+  { "name": "Sarah", "lastname": "Taylor", "email": "sarah.taylor@email.com", "password": "123456" },
+  { "name": "Chris", "lastname": "Moore", "email": "chris.moore@email.com", "password": "123456" },
+  { "name": "Laura", "lastname": "Anderson", "email": "laura.anderson@email.com", "password": "123456" },
+  { "name": "Daniel", "lastname": "Thomas", "email": "daniel.thomas@email.com", "password": "123456" },
+  { "name": "Sophia", "lastname": "Martinez", "email": "sophia.martinez@email.com", "password": "123456" }
+]
