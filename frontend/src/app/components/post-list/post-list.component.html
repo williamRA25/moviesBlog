@@ -1,0 +1,33 @@
+<div class="row mt-4">
+  <div class="col-md-4 mb-4" *ngFor="let post of paginatedPosts">
+    <div class="card h-100">
+      <img [src]="post.image" class="card-img-top" alt="{{ post.title }}" />
+      <div class="card-body">
+        <h5 class="card-title">{{ post.title }}</h5>
+        <p class="card-text">{{ post.summary }}</p>
+        <a [routerLink]="['/post', post.id]" class="btn btn-primary"
+          >Leer más</a
+        >
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Paginación -->
+<nav class="mt-4">
+  <ul class="pagination justify-content-center">
+    <li class="page-item" [class.disabled]="currentPage === 1">
+      <a class="page-link" (click)="changePage(currentPage - 1)">Anterior</a>
+    </li>
+    <li
+      class="page-item"
+      *ngFor="let page of [].constructor(totalPages); let i = index"
+      [class.active]="currentPage === i + 1"
+    >
+      <a class="page-link" (click)="changePage(i + 1)">{{ i + 1 }}</a>
+    </li>
+    <li class="page-item" [class.disabled]="currentPage === totalPages">
+      <a class="page-link" (click)="changePage(currentPage + 1)">Siguiente</a>
+    </li>
+  </ul>
+</nav>
