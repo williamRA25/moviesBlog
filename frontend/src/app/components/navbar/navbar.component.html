@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+  <a class="navbar-brand" routerLink="/">Movies blog</a>
+  <div class="collapse navbar-collapse">
+    <form class="d-flex ms-auto" (submit)="onSearch(); $event.preventDefault()">
+      <input
+        class="form-control me-2"
+        type="search"
+        placeholder="Buscar..."
+        [(ngModel)]="searchTerm"
+        name="searchTerm"
+      />
+      <button class="btn btn-outline-light" type="submit">Buscar</button>
+    </form>
+  </div>
+</nav>
