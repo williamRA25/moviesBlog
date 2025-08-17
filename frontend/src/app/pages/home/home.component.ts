@@ -8,12 +8,8 @@ import { Post } from '../../models/post.model';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [
-    CommonModule,
-    NavbarComponent,
-    PostListComponent
-  ],
-  templateUrl: './home.component.html'
+  imports: [CommonModule, NavbarComponent, PostListComponent],
+  templateUrl: './home.component.html',
 })
 export class HomeComponent implements OnInit {
   posts: Post[] = [];
@@ -22,21 +18,26 @@ export class HomeComponent implements OnInit {
   constructor(private postService: PostService) {}
 
   ngOnInit() {
-    this.postService.getAll().subscribe(data => {
+    this.postService.getAll().subscribe((data) => {
       this.posts = data;
       this.filteredPosts = data;
     });
   }
 
   onCategoryChange(cat: string) {
-    this.filteredPosts = (cat === 'all') ? this.posts :
-      this.posts.filter(p => p.category.toLowerCase() === cat.toLowerCase());
+    this.filteredPosts =
+      cat === 'all'
+        ? this.posts
+        : this.posts.filter(
+            (p) => p.category.toLowerCase() === cat.toLowerCase()
+          );
   }
 
   onSearch(term: string) {
     this.filteredPosts = this.posts.filter(
-      p => p.title.toLowerCase().includes(term.toLowerCase()) ||
-           p.content.toLowerCase().includes(term.toLowerCase())
+      (p) =>
+        p.title.toLowerCase().includes(term.toLowerCase()) ||
+        p.content.toLowerCase().includes(term.toLowerCase())
     );
   }
 }

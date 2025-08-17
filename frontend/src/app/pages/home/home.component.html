@@ -1,2 +1,7 @@
-<app-navbar (search)="onSearch($event)"></app-navbar>
+<app-navbar
+  (search)="onSearch($event)"
+  (categoryChange)="onCategoryChange($event)"
+>
+</app-navbar>
+
 <app-post-list [posts]="filteredPosts"></app-post-list>
