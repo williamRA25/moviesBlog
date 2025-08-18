@@ -1,6 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
   <a class="navbar-brand" routerLink="/">Movies blog</a>
   <div class="collapse navbar-collapse">
+    <!-- Filtro categorías -->
     <select
       class="form-select me-3 ms-auto"
       [(ngModel)]="selectedCategory"
@@ -11,6 +12,7 @@
       <option *ngFor="let cat of categories" [value]="cat">{{ cat }}</option>
     </select>
 
+    <!-- Buscador -->
     <form class="d-flex" (submit)="onSearch(); $event.preventDefault()">
       <input
         class="form-control me-2"

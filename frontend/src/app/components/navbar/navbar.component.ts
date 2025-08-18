@@ -1,7 +1,7 @@
-import { Component, EventEmitter, Output, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Router } from '@angular/router';
 import { CategoryService } from '../../services/category.service';
 
 @Component({
@@ -15,22 +15,24 @@ export class NavbarComponent implements OnInit {
   categories: string[] = [];
   selectedCategory = 'all';
 
-  @Output() search = new EventEmitter<string>();
-  @Output() categoryChange = new EventEmitter<string>();
-
-  constructor(private categoryService: CategoryService) {}
+  constructor(
+    private categoryService: CategoryService,
+    private router: Router
+  ) {}
 
   ngOnInit() {
-    this.categoryService.getAll().subscribe(data => {
+    this.categoryService.getAll().subscribe((data) => {
       this.categories = data;
     });
   }
 
   onSearch() {
-    this.search.emit(this.searchTerm);
+    this.router.navigate(['/'], { queryParams: { search: this.searchTerm } });
   }
 
   onCategoryChange() {
-    this.categoryChange.emit(this.selectedCategory);
+    this.router.navigate(['/'], {
+      queryParams: { category: this.selectedCategory },
+    });
   }
 }
