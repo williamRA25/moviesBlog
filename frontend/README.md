@@ -6,6 +6,10 @@ Una aplicación web moderna desarrollada con Angular 17, esta aplicación consum
 
 Este frontend permite a los usuarios navegar por un blog de películas con funcionalidades de filtro por categoria y busqueda por termino. 
 
+## Previsualizacion 
+
+[moviesBlog](https://movies-blog-rust.vercel.app/)
+
 ## Tecnologías utilizadas
 
 - **Angular 17** - Framework principal
