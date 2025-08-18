@@ -1,27 +1,73 @@
-# Frontend
+# Frontend Blog de Películas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+Una aplicación web moderna desarrollada con Angular 17, esta aplicación consume la API REST del backend para proporcionar una interfaz de usuario completa e intuitiva.
 
-## Development server
+## Descripción
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este frontend permite a los usuarios navegar por un blog de películas con funcionalidades de filtro por categoria y busqueda por termino. 
 
-## Code scaffolding
+## Tecnologías utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular 17** - Framework principal
+- **TypeScript** - Lenguaje de programación
+- **Bootstrap** - UI Components
+- **RxJS** - Programación reactiva
+- **Angular Router** - Navegación
+- **HttpClient** - Comunicación con la API
+- **Angular CLI** - Herramientas de desarrollo
 
-## Build
+## Pre-requisitos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Para poder ejecutar el proyecto es necesario tener instalado lo siguiente:
 
-## Running unit tests
+- **Node.js** versión 18 o superior  
+  [Descargar Node.js](https://nodejs.org/es/download)
+- **npm** (incluido con Node.js) o **yarn** como gestor de paquetes
+- **Angular CLI** versión 17  
+  ```bash
+  npm install -g @angular/cli@17
+  ```
+- **Git** para clonar el repositorio  
+  [Descargar Git](https://git-scm.com/downloads)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instalación y configuración
 
-## Running end-to-end tests
+1. **Clonar el repositorio:**
+```bash
+git clone https://github.com/williamRA25/moviesBlog.git
+cd moviesBlog/frontend
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. **Instalar dependencias:**
+```bash
+npm install
+```
 
-## Further help
+3. **Iniciar el servidor de desarrollo:**
+```bash
+npm start
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+La aplicación estará disponible en `http://localhost:4200`
+
+## Funcionalidades principales
+
+- Ver lista de publicaciones 
+- Ver una publicación
+- Filtrar por categoria
+- Buscar por terminos 
+
+## Conexión con el Backend
+
+Asegúrate de que el backend esté ejecutándose en `http://localhost:3001` antes de iniciar el frontend. La comunicación se realiza através de servicios Angular que consumen la API REST.
+
+## Colaboradores
+
+- WILLIAM RODRIGUEZ AVILA
+- RONAL LUIS AVILA NORIEGA
+
+## Documentación adicional
+
+- [Documentación del Backend](../backend/README.md)
+- [API Documentation](https://documenter.getpostman.com/view/47434181/2sB3BEnA71)
+- [Angular Documentation](https://angular.io/docs)
