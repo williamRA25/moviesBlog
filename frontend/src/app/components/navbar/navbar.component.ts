@@ -1,7 +1,8 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Router } from '@angular/router';
+import { CategoryService } from '../../services/category.service';
 
 @Component({
   selector: 'app-navbar',
@@ -9,11 +10,29 @@ import { RouterModule } from '@angular/router';
   imports: [CommonModule, FormsModule, RouterModule],
   templateUrl: './navbar.component.html',
 })
-export class NavbarComponent {
+export class NavbarComponent implements OnInit {
   searchTerm = '';
-  @Output() search = new EventEmitter<string>();
+  categories: string[] = [];
+  selectedCategory = 'all';
+
+  constructor(
+    private categoryService: CategoryService,
+    private router: Router
+  ) {}
+
+  ngOnInit() {
+    this.categoryService.getAll().subscribe((data) => {
+      this.categories = data;
+    });
+  }
 
   onSearch() {
-    this.search.emit(this.searchTerm);
+    this.router.navigate(['/'], { queryParams: { search: this.searchTerm } });
+  }
+
+  onCategoryChange() {
+    this.router.navigate(['/'], {
+      queryParams: { category: this.selectedCategory },
+    });
   }
 }

@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+.page-item.disabled .page-link {
+  pointer-events: none; /* evita que se pueda hacer clic */
+  cursor: not-allowed; /* cursor bloqueado */
+}
+
+.page-item:not(.disabled) .page-link {
+  cursor: pointer; /* cursor mano solo cuando está activo */
+}
